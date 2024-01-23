@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+
+}
+
+.sidebar-navegation {
+    background-color: rgb(34, 31, 31);
+    width: 250px;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo img {
+    width: 80px;
+}
