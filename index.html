@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/main.css">
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -14,7 +16,7 @@
     
 </head>
 <body>
-    
+    <header>
     <div class="sidebar">
         <nav class="sidebar-navegation">
             <div class="logo">
@@ -69,5 +71,36 @@
           </div>
 
     </div>
+  </header>
+
+    <main>
+      <div class="main-contenier">
+          <nav class="header-navigation">
+            <div class="navigation">
+                 <button class="arrow-left">
+                    <img src="imagens/small-left.png" alt="seta esquerda">
+                 </button>
+                 <button class="arrow-right">
+                  <img src="imagens/small-right.png" alt="seta direita">
+               </button>
+               <div class="header-search">
+                   <img src="imagens/search.png" alt="">
+                   <input id="search-input" type="text" maxlength="800" placeholder="O que voce quer ouvir?">
+               </div>
+                  <div class="header-login">
+                     <button class="subscrive">Inscreva-se</button>
+                     <button class="login">Entrar</button>
+
+                  </div>
+
+            </div>
+          </nav>
+      </div>
+
+    </main>
+
+    <footer class="disclaimar-premium">
+
+    </footer>
 </body>
 </html>
